@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="ParallelExecutiontestng.xml">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields"/>
+      <class name="com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields"/>
+      <class name="com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ParallelExecutiontestng.xml -->
